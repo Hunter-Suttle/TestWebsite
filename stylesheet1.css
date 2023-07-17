@@ -49,3 +49,7 @@ main img{
     margin-top: 20px;
 }
 
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
