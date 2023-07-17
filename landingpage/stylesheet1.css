@@ -26,30 +26,24 @@ h1 {
     padding: 20px;
 }
 
-img {
-    width: 9rem;
-    height: 13rem;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
-
 main p {
     color: black;
     text-align: 0;
     font-size: x-large;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 main {
-    max-width: 840px;
+    max-width: 750px;
+    justify-content: center;
+    align-items: center;
 }
 
-main img{
+img {
+    max-width: 165px;
+    max-height: 250px;
     float: right;
-    margin-top: 20px;
-}
-
-main {
-    grid-column: 2/3;
-    margin: 1rem;
+    margin: 2px;
+    border: 0.5px solid steelblue;
+    padding: 2px;
 }
